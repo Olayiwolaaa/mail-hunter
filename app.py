@@ -1,5 +1,5 @@
 import re
-import requests
+import requests, keywords_arr
 from bs4 import BeautifulSoup
 
 # Function to scrape emails from a given URL
@@ -17,10 +17,10 @@ def scrape_emails(url):
     except requests.RequestException as e:
         print(f"Error accessing {url}: {e}")
         return []
-
-# Example usage
-url = 'https://business.nova.edu/people/index.html'
-emails = scrape_emails(url)
+    
+# url = 'https://business.nova.edu/people/index.html'
+for url in keywords_arr.urls:
+    emails = scrape_emails(url)
 
 # Printing the emails found
 for email in emails:
