@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Author✍🏽
 
-[Karaole Olayiwola Muizz](https://github/Olayiwolaaa "Github Profile")
+[Karaole Olayiwola Muizz](https://github.com/Olayiwolaaa "Github Profile")
 
 ## Disclaimer ❌
 
